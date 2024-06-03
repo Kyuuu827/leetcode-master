@@ -1,13 +1,13 @@
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
-                # overflow에 대한 예외 처리를 해준다
+        # overflow에 대한 예외 처리
         if (dividend == -2147483648 and divisor == -1): 
             return 2147483647
 
-        # dividend, divisor의 부호에 따라 정해지는 몫의 부호가 된다.
+        # dividend, divisor의 부호에 따라 정해지는 몫의 부호
         multiplier = 1
 
-        # dividend, divisor를 모두 계산하기 편하게 양수로 바꿨다.
+        # dividend, divisor를 모두 계산하기 편하게 양수로 변환.
         if dividend < 0:
             dividend = -dividend
             multiplier = -multiplier
@@ -15,12 +15,9 @@ class Solution:
             divisor = -divisor
             multiplier = -multiplier
 
-        # 남은 빼야 할 수
         left = dividend
-        # 몫
         quotient = 0
 
-        # 남은 수가 divisor보다 크거나 같을 때만 계속 반복할 수 있다.
         while left >= divisor:
             # 내부 while loop에서 사용할 임시 몫(divisor를 빼는 횟수)이다. 
             temporalQuotient = 1
@@ -42,27 +39,6 @@ class Solution:
                     break
 
         return quotient * multiplier
-
-#         if (dividend == -2147483648 and divisor == -1): 
-#             return 2147483647
-#         minus_value = 1
-#         if dividend < 0:
-#             dividend = -dividend
-#             minus_value *= -1
-#         if divisor < 0:
-#             divisor = -divisor
-#             minus_value *= -1
-#         if divisor == 1:
-#             return dividend * minus_value
-        
-#         num = dividend
-#         cnt = 0
-        
-#         while num >= divisor:
-#             num = num - divisor
-#             cnt += 1
-
-#         return cnt * minus_value
     
     
     
