@@ -7,7 +7,6 @@ class Solution:
         # dividend, divisor의 부호에 따라 정해지는 몫의 부호
         multiplier = 1
 
-        # dividend, divisor를 모두 계산하기 편하게 양수로 변환.
         if dividend < 0:
             dividend = -dividend
             multiplier = -multiplier
