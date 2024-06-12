@@ -16,7 +16,6 @@ class Solution:
             "I": 1,
         }
         
-        cursor = 0
         roman_list = []
         for k in roman_dict:
             while True:
