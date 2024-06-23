@@ -6,7 +6,6 @@ class Solution {
         
         while(j >= 0) {
             if (i >= 0 && nums1[i] > nums2[j]) {
-                System.out.println(i);
                 nums1[k--] = nums1[i--];
             } else {
                 nums1[k--] = nums2[j--];
