@@ -19,4 +19,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Kyuuu827/leetcode-master/tree/master/0021-merge-two-sorted-lists) |
+## Array
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Kyuuu827/leetcode-master/tree/master/0011-container-with-most-water) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Kyuuu827/leetcode-master/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Kyuuu827/leetcode-master/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
