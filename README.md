@@ -37,4 +37,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Kyuuu827/leetcode-master/tree/master/0035-search-insert-position) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/Kyuuu827/leetcode-master/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
