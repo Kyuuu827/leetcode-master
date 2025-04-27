@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/Kyuuu827/leetcode-master/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/Kyuuu827/leetcode-master/tree/master/0021-merge-two-sorted-lists) |
 ## Array
 |  |
@@ -46,9 +47,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Kyuuu827/leetcode-master/tree/master/0006-zigzag-conversion) |
+| [0010-regular-expression-matching](https://github.com/Kyuuu827/leetcode-master/tree/master/0010-regular-expression-matching) |
 | [0014-longest-common-prefix](https://github.com/Kyuuu827/leetcode-master/tree/master/0014-longest-common-prefix) |
 ## Trie
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Kyuuu827/leetcode-master/tree/master/0014-longest-common-prefix) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/Kyuuu827/leetcode-master/tree/master/0010-regular-expression-matching) |
 <!---LeetCode Topics End-->
